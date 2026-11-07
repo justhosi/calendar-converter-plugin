@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "hosi.jalali-gregorian-converter",
+  "name": "Jalali ↔ Gregorian Converter",
+  "version": "1.0.0",
+  "author": "Hosi",
+  "license": "MIT",
+  "description": "Minimal converter between Solar Hijri (Jalali/Persian) and Gregorian dates",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Date Converter",
+    "description": "Convert any date between Solar Hijri and Gregorian",
+    "category": "Time",
+    "defaultSection": "centerEnd",
+    "allowMultiple": false
+  }
+}

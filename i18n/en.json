@@ -1,0 +1,15 @@
+{
+  "bar.tooltip": "Jalali ↔ Gregorian converter",
+  "panel.title": "Date converter",
+  "panel.toGregorian": "Jalali → Gregorian",
+  "panel.toJalali": "Gregorian → Jalali",
+  "panel.year": "Year",
+  "panel.month": "Month",
+  "panel.day": "Day",
+  "panel.convert": "Convert",
+  "panel.swap": "Swap direction",
+  "panel.copy": "Copy result",
+  "panel.copied": "Copied",
+  "panel.invalid": "Enter a valid date",
+  "panel.result": "Result"
+}
