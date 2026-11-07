@@ -19,6 +19,7 @@ A minimal **Omarchy shell** bar plugin that converts dates between **Solar Hijri
 | Kind | `bar-widget` |
 | Default section | `centerEnd` |
 | Author | Hosi |
+| License | MIT (see [LICENSE](LICENSE)) |
 
 ## Requirements
 
@@ -44,7 +45,7 @@ omarchy-shell shell rescanPlugins
 Add the widget to your bar (example: `centerEnd`):
 
 ```bash
-omarchy bar put hoshi.jalali-gregorian-converter --section centerEnd
+omarchy bar put hosi.jalali-gregorian-converter --section centerEnd
 ```
 
 If `omarchy bar put`/`omarchy plugin enable` does not add it in your Omarchy version, you can add it manually to `~/.config/omarchy/shell.json` under `bar.layout.centerEnd`:
@@ -130,8 +131,12 @@ omarchy-shell shell rescanPlugins
 Or, if managed by Omarchy plugin commands:
 
 ```bash
-omarchy plugin remove hoshi.jalali-gregorian-converter --yes
+omarchy plugin remove hosi.jalali-gregorian-converter --yes
 ```
+
+## License
+
+MIT — see [LICENSE](LICENSE).
 
 ## Credits
 
